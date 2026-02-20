@@ -44,6 +44,17 @@ Across 16 combinations of:
 File:
 simulations/mc_full_simulation.R
 
+## Empirical Application: LaLonde Data
+
+We analyze the NSW job training program using:
+
+- RCTE (Plug-in and Doubly Robust)
+- ATO
+- ATE (AIPW)
+- ATT (Augmented)
+
+File:
+application/lalonde_analysis.R
 
 
 
