@@ -56,6 +56,17 @@ We analyze the NSW job training program using:
 File:
 application/lalonde_analysis.R
 
+## Empirical Application: 401(k) Eligibility
+
+We analyze the effect of 401(k) eligibility on net financial assets using:
+
+- RCTE (Plug-in and Doubly Robust)
+- ATO
+- ATE (AIPW)
+- ATT (AIPW)
+
+File:
+application/401k_analysis.R
 
 
 
