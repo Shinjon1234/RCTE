@@ -28,27 +28,22 @@ using concentration bounbds from ststistical learning theory.
 
 ## Repository Structure
 
-R/
-  Core reusable functions:
-    - Data generating processes
-    - Nuisance model estimation
-    - Weight construction
-    - DR estimator
-   
+## Monte Carlo Simulation
 
-simulations/
-  Monte Carlo experiments and bootstrap studies
+The simulation framework evaluates:
 
-application/
-  Real data empirical analysis
+- ATE (Plug-in and Doubly Robust)
+- ATT (Plug-in and Doubly Robust)
+- ATO (Plug-in and Doubly Robust)
+- RCTE (Plug-in and Doubly Robust)
 
-manuscript/
-  RMarkdown source for the paper and supplement
+Across 16 combinations of:
+- Treatment Effect specification
+- Propensity score specification
 
-output/
-  Generated tables and figures
+File:
+simulations/mc_full_simulation.R
 
----
 
 
 
