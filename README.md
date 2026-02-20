@@ -50,12 +50,6 @@ output/
 
 ---
 
-rcte_dr_wate/
-│
-├── simulations/
-│   ├── mc_design_reference.R
-│   ├── mc_run_all_scenarios.R
-│   └── mc_helpers.R
 
 
 
